@@ -1,0 +1,95 @@
+body{
+    font-family: "Comic Sans MS"; /* Семейство шрифтов */
+    font-size: 18pt; /* Размер основного шрифта в пунктах  */
+    text-align: center;
+    background-image:  url("font.jpg");
+    color: #ffffff; /* Цвет основного текста */
+
+ }
+.la{
+    padding: 30px; /* Поля вокруг текста */
+    background: url("image3.jpg"); /* Цвет фона */
+}
+.po{
+    position: fixed; /* Фиксированное положение */
+    left: 0; /* Расстояние от правого края окна браузера */
+    bottom: 0; /* Расстояние сверху */
+    padding: 30px; /* Поля вокруг текста */
+    background:url("image3.jpg"); /* Цвет фона */
+    width: 100%;
+
+}
+.bottom{
+    position: fixed;
+    color:green;
+    font-size: 18pt;
+    text-align: left;
+    bottom: 80px;
+}
+#bloc{
+    float: right; /* Обтекание справа */
+    font-size: 10pt; /* Размер основного шрифта в пунктах  */
+    width: 200px; /* Ширина колонки */
+    margin-right: 50px; /* Отступ справа */
+
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid white; /* Параметры рамки */
+}
+#bloc a {
+     font-size: 20px; /* Размер текста */
+     color: yellow;
+ }
+#bloc a2 {
+    font-size: 15px; /* Размер текста */
+    color: white;
+}
+.pic2{
+
+    position: fixed;
+    font-size: 18pt;
+    text-align: center;
+
+}
+.line {
+    border-bottom: 1px groove white; /* Линия между ссылками */
+}
+
+h1{
+    color:#ffffff;
+    font-size: 18pt;
+    text-align: center;
+}
+
+h4{
+    color:yellow;
+    font-size: 18pt;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+input {
+   font-size: 15px;
+ }
+input.string {
+    background: white;
+}
+
+input.string:focus {
+    background: yellow;
+}
+
+input.emptystring {
+    background: orangered;
+}
+
+input.emptystring:focus {
+    background: white;
+}
