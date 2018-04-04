@@ -9,7 +9,6 @@ import javax.servlet.http.HttpSession;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -24,12 +23,9 @@ public class XmlServlet extends HttpServlet{
         Task task = (Task) session.getAttribute("task");
         if (task != null) {
             try {
-
                 JAXBContext jaxbContext = JAXBContext.newInstance(Task.class);
                 Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
                 jaxbMarshaller.marshal(task, out);
-
-
             } catch (JAXBException e) {
                 e.getMessage();
             }

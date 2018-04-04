@@ -44,17 +44,18 @@
             </a>
         </h4>
 
-        <div class="pic2">
+
             <a>
-                Ну а теперь можно бежать обратно
+                 Ну а теперь можно бежать обратно
                 <br>
                 <a href="index.jsp"> <img src="pic2.gif" width="200" height="200"/></a>
                 <br>
                 или
                 <br>
                 получить <a href="result.xml">результат</a> в xml формате
+
             </a>
-        </div>
+
 
     <% }
     else {%>

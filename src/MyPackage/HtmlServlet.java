@@ -1,7 +1,5 @@
 package MyPackage;
 
-import com.sun.xml.internal.ws.server.ServerRtException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
